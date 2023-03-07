@@ -29,12 +29,27 @@ h1{
     font-size: 4em;
 }
 
+h2{
+    color: black;
+    font-size: 3em;
+}
+
 p{
     font-size: 1.1em;
     color: white;
     line-height: 1.5em;
 }
 
+img{
+    width: 100%;
+}
+
+img[alt="wave"]{
+    opacity: 0.04;
+    display: block;
+}
+
+/* ? BUTTONS */
 button{
     padding: .7em 1.2em .7em 1.2em;
     border: none;
@@ -42,7 +57,6 @@ button{
     font-size: 1.4em;
 }
 
-/* ? BUTTONS */
 .button1{
     background-color: #23262b;
     color: white;
@@ -62,6 +76,10 @@ button{
 .smallColMargin{ margin-top: 2em; margin-bottom: 2em; }
 .smallMarginR{ margin-right: 1em;}
 .smallMarginL{ margin-left: 1em;}
+.mediumMarginL{ margin-left: 3em;}
+.bigMarginL{ margin-left: 5em;}
+.smallTopPadding{ padding-top: .6em; }
+
 /* ? FLEX----------------------------------------- */
 .flexRow{ display: flex; flex-direction: row; }
 .flexJusCenter{ justify-content: center; }
@@ -102,7 +120,7 @@ button{
 .bgC4{ background-color: #ee83ef; }
 .bgC5{ background-color: #1e90ff; }
 .bgC6{ background-color: #fec1cb; }
-.bgC7{ background-color: #d3d2d2; }
+.bgC7{ background-color: #f6f6f6; }
 .bgC8{ background-color: #228b22 }
 .bgC9{ background-color: #f08181 }
 .bgC10{ background-color: #21b2ab }
@@ -111,3 +129,4 @@ button{
 
 /* UTILITY */
 .textAlCenter{ text-align: center; }
+.colorBlack{ color: black; }
