@@ -11,8 +11,12 @@
     max-width: 1000px; 
 }
 
+/* * TAGS----------------------------------------- */
+a{
+    margin: .8em;
+}
+
 /* ? MARGIN & PADDING----------------------------- */
-span{ padding: .5em; }
 .mainRowPadding{ padding-top: 3em; padding-bottom: 3em; }
 .headerRowMargin{ margin-bottom: 1em; }
 .headerRowPadding{ padding-top: 1em; }
@@ -21,10 +25,14 @@ span{ padding: .5em; }
 .footerRowPadding3{ padding-top: .5em; padding-bottom: 2em; }
 
 /* ? FLEX----------------------------------------- */
-.flexContainer{ display: flex; flex-direction: row; }
+.flexRow{ display: flex; flex-direction: row; }
 .flexJusCenter{ justify-content: center; }
 .flexJusEnd{ justify-content: flex-end; }
 .flexJusBetween{ justify-content: space-between; }
+.flexJusAround{ justify-content: space-around; }
+.flexAlignCenter{ align-items: center;}
+.flexAlignStretch{ align-items: stretch;}
+.flexColumn{ display: flex; flex-direction: column;}
 
 /* ? WIDTH---------------------------------------- */
 .w_1-5{ width: calc(100% / 5); }
@@ -45,8 +53,8 @@ span{ padding: .5em; }
 .minH_footerBoxes{ min-height: 600px; }
 
 /* ? BORDER--------------------------------------- */
-.bordSection{ border: black 2px dotted; }
-.bordSectionWhite{ border: white 2px dotted; }
+.bordSection{ border: black 2px dashed; }
+.bordSectionWhite{ border: white 2px dashed; }
 .bordFoot{ border-top: gray 2px solid; }
 
 /* ? BG COLORS------------------------------------ */
@@ -62,3 +70,6 @@ span{ padding: .5em; }
 .bgC10{ background-color: #21b2ab }
 .bgC11{ background-color: #23262b }
 .bgC12{ background-color: #7ffed5 }
+
+/* UTILITY */
+.textAlCenter{ text-align: center; }
