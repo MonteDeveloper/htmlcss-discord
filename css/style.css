@@ -49,6 +49,12 @@ img[alt="wave"]{
     display: block;
 }
 
+img[alt="wave2"]{
+    opacity: 0.04;
+    display: block;
+    transform: scaleY(-1);
+}
+
 /* ? BUTTONS */
 button{
     padding: .7em 1.2em .7em 1.2em;
@@ -78,6 +84,7 @@ button{
 .smallMarginL{ margin-left: 1em;}
 .mediumMarginL{ margin-left: 3em;}
 .bigMarginL{ margin-left: 5em;}
+.bigMarginR{ margin-right: 5em;}
 .smallTopPadding{ padding-top: .6em; }
 
 /* ? FLEX----------------------------------------- */
