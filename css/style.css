@@ -3,6 +3,8 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
 }
 
 /* * BOXES---------------------------------------- */
@@ -14,6 +16,40 @@
 /* * TAGS----------------------------------------- */
 a{
     margin: .8em;
+    color: white;
+}
+
+header{
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
+}
+
+h1{
+    color: white;
+    font-size: 4em;
+}
+
+p{
+    font-size: 1.1em;
+    color: white;
+    line-height: 1.5em;
+}
+
+button{
+    padding: .7em 1.2em .7em 1.2em;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.4em;
+}
+
+/* ? BUTTONS */
+.button1{
+    background-color: #23262b;
+    color: white;
+}
+
+.smallButton{
+    font-size: 1em;
 }
 
 /* ? MARGIN & PADDING----------------------------- */
@@ -23,7 +59,9 @@ a{
 .footerRowPadding{ padding-top: 1em; padding-bottom: 1em; }
 .footerRowPadding2{ padding-top: 1em; }
 .footerRowPadding3{ padding-top: .5em; padding-bottom: 2em; }
-
+.smallColMargin{ margin-top: 2em; margin-bottom: 2em; }
+.smallMarginR{ margin-right: 1em;}
+.smallMarginL{ margin-left: 1em;}
 /* ? FLEX----------------------------------------- */
 .flexRow{ display: flex; flex-direction: row; }
 .flexJusCenter{ justify-content: center; }
