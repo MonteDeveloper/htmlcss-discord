@@ -63,12 +63,16 @@ p{
     line-height: 1.5em;
 }
 
+img{
+    width: 100%;
+}
+
 img[alt="stars"]{
     width: 50%;
 }
 
-img{
-    width: 100%;
+img[alt="logo"]{
+    width: 150px;
 }
 
 img[alt="wave"]{
@@ -154,7 +158,7 @@ button{
 /* ? BORDER--------------------------------------- */
 .bordSection{ border: black 2px dashed; }
 .bordSectionWhite{ border: white 2px dashed; }
-.bordFoot{ border-top: gray 2px solid; }
+.bordFoot{ border-top: #728bde 1px solid; }
 
 /* ? BG COLORS------------------------------------ */
 .bgC1{ background-color: #dba420; }
