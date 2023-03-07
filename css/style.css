@@ -39,14 +39,32 @@ h3{
     font-size: 1.5em;
 }
 
-img[alt="stars"]{
-    width: 50%;
+h4{
+    color: #728bde;
+    font-size: 2.5em;
+}
+
+h5{
+    color: #728bde;
+    font-size: 1em;
+    margin: .8em;
+}
+
+i{
+    color: white;
+    width: calc(100% / 8);
+    font-size: 1.5em;
+    margin-top: 20px;
 }
 
 p{
     font-size: 1.1em;
     color: white;
     line-height: 1.5em;
+}
+
+img[alt="stars"]{
+    width: 50%;
 }
 
 img{
@@ -56,6 +74,10 @@ img{
 img[alt="wave"]{
     opacity: 0.04;
     display: block;
+}
+
+img[alt="flag"]{
+    width: 1.5em;
 }
 
 img[alt="wave2"]{
