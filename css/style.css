@@ -14,16 +14,6 @@
 }
 
 /* * TAGS----------------------------------------- */
-a{
-    margin: .8em;
-    color: white;
-}
-
-a:hover {
-    text-decoration: underline;
-    cursor: pointer;
-  }
-
 header{
     background-image: url("../img/jumbo.png");
     background-size: cover;
@@ -55,6 +45,22 @@ h5{
     margin: .8em;
 }
 
+p{
+    font-size: 1.1em;
+    color: white;
+    line-height: 1.5em;
+}
+
+a{
+    margin: .8em;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 i{
     color: white;
     width: calc(100% / 8);
@@ -66,11 +72,7 @@ i:hover{
     cursor: pointer;
 }
 
-p{
-    font-size: 1.1em;
-    color: white;
-    line-height: 1.5em;
-}
+/* ? IMAGES------------------------------------- */
 
 img{
     width: 100%;
@@ -99,7 +101,7 @@ img[alt="wave2"]{
     transform: scaleY(-1);
 }
 
-/* ? BUTTONS */
+/* ? BUTTONS------------------------------------ */
 button{
     padding: .7em 1.2em .7em 1.2em;
     border: none;
@@ -115,23 +117,23 @@ button:hover{
     color: #3160e1;
 }
 
-.button1{
+.buttonDark{
     background-color: #23262b;
     color: white;
 }
 
-.button1:hover{
+.buttonDark:hover{
     background-color: #2c2e33;
     color: white;
 }
 
-.button2:hover{
-    background-color: #8fa0e1;
+.buttonAqua{
+    background-color: #7084d1;
     color: white;
 }
 
-.button2{
-    background-color: #7084d1;
+.buttonAqua:hover{
+    background-color: #8fa0e1;
     color: white;
 }
 
@@ -140,29 +142,27 @@ button:hover{
 }
 
 /* ? MARGIN & PADDING----------------------------- */
-.mainRowPadding{ padding-top: 3em; padding-bottom: 3em; }
-.headerRowMargin{ margin-bottom: 1em; }
-.headerRowPadding{ padding-top: 1em; }
-.footerRowPadding{ padding-top: 2em; padding-bottom: 2em; }
-.footerRowPadding2{ padding-top: 2em; }
-.footerRowPadding3{ padding-top: .5em; padding-bottom: 2em; }
-.smallColMargin{ margin-top: 2em; margin-bottom: 2em; }
+.mediumRowPadding{ padding-top: 3em; padding-bottom: 3em; }
+.headerBotMargin{ margin-bottom: 1em; }
+.headerTopPadding{ padding-top: 1em; }
+.footerRowPadding1{ padding-top: .5em; padding-bottom: 2em; }
+.footerRowPadding2{ padding-top: 2em; padding-bottom: 2em; }
+.smallRowMargin{ margin-top: 2em; margin-bottom: 2em; }
 .smallMarginR{ margin-right: .5em;}
 .smallMarginL{ margin-left: .5em;}
-.mediumMarginL{ margin-left: 3em;}
 .bigMarginL{ margin-left: 5em;}
 .bigMarginR{ margin-right: 5em;}
 .smallTopPadding{ padding-top: .6em; }
 
 /* ? FLEX----------------------------------------- */
 .flexRow{ display: flex; flex-direction: row; }
+.flexColumn{ display: flex; flex-direction: column;}
 .flexJusCenter{ justify-content: center; }
 .flexJusEnd{ justify-content: flex-end; }
 .flexJusBetween{ justify-content: space-between; }
 .flexJusAround{ justify-content: space-around; }
 .flexAlignCenter{ align-items: center;}
 .flexAlignStretch{ align-items: stretch;}
-.flexColumn{ display: flex; flex-direction: column;}
 
 /* ? WIDTH---------------------------------------- */
 .w_1-5{ width: calc(100% / 5); }
