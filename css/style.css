@@ -147,8 +147,8 @@ button:hover{
 .footerRowPadding2{ padding-top: 2em; }
 .footerRowPadding3{ padding-top: .5em; padding-bottom: 2em; }
 .smallColMargin{ margin-top: 2em; margin-bottom: 2em; }
-.smallMarginR{ margin-right: 1em;}
-.smallMarginL{ margin-left: 1em;}
+.smallMarginR{ margin-right: .5em;}
+.smallMarginL{ margin-left: .5em;}
 .mediumMarginL{ margin-left: 3em;}
 .bigMarginL{ margin-left: 5em;}
 .bigMarginR{ margin-right: 5em;}
